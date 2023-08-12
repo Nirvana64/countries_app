@@ -22,8 +22,8 @@ body{
 }
 .headtext{
     margin: auto;
-    background-color: cyan;
-    color: #ff4500;
+    background-color: rgb(164, 233, 233);
+    color: hsl(16, 77%, 23%);
     border-radius: 20px;
     width: 300px;
     text-align: center;
@@ -35,14 +35,14 @@ body{
 }
 .footer>a{
     text-decoration-line: none;
-    color: cyan;
+    color: rgb(255, 0, 255);
 }
 .section{
     height: 500px;
 }
 .left{
     float: left;
-    background-image: linear-gradient(120deg,rgb(180, 170, 170),#d5d7d8,#dcdca1);
+    background-image: linear-gradient(120deg,rgb(100, 49, 221),hsl(200, 70%, 62%),#dcdca1);
     width: 200px;
     min-height:350px ;
     padding: 20px;
@@ -88,7 +88,7 @@ border: 0px;
     border-radius: 20px;
     font-size: larger;
     background-image: linear-gradient(60deg, rgb(73, 73, 225), rgb(166, 166, 226), rgb(16, 205, 192));
-    color: gold;
+    color: rgb(77, 66, 8);
 }
 .left>div{
     background-color: #e1e3e5;
