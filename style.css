@@ -1,0 +1,142 @@
+body{
+    margin: 20px 30px;
+}
+.footer{
+    position: fixed;
+    bottom: 5px;
+    width: 96%;
+    background-color: black;
+    color: rgb(243, 230, 110);
+    text-align: center;
+}
+.head{
+    padding-top: 20px;
+    background-image: url(./images/map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 95%;
+    height: 100px;
+    border-bottom: 6px solid gray;
+    
+}
+.headtext{
+    margin: auto;
+    background-color: cyan;
+    color: #ff4500;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+.head>p{
+    float: right;
+    right: 0%;
+    width: fit-content;
+}
+.footer>a{
+    text-decoration-line: none;
+    color: cyan;
+}
+.section{
+    height: 500px;
+}
+.left{
+    float: left;
+    background-image: linear-gradient(120deg,rgb(180, 170, 170),#d5d7d8,#dcdca1);
+    width: 200px;
+    min-height:350px ;
+    padding: 20px;
+}
+.right{
+    overflow: scroll;
+    margin-left: 30px;
+    float: left;
+    width: 800px;
+    height: 400px;
+    padding-bottom: 60px;
+    bottom: 30px; ;
+}
+table{
+    width: 95%;
+    height: fit-content;
+}
+table ,td{
+    border-collapse: collapse;
+    border: 0px solid blue;
+}
+td>img{
+    width: 80px;
+    height: 40px;
+}
+td:nth-child(5){
+    white-space: nowrap;
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: "----"; 
+   
+}
+.searchInput{
+width:100px;
+margin: 0px;
+border: 0px;
+}
+.searchButton{
+    margin:0px;
+    border-collapse: collapse;
+    width: auto;
+    border: 0px;
+    border-radius: 20px;
+    font-size: larger;
+    background-image: linear-gradient(60deg, rgb(73, 73, 225), rgb(166, 166, 226), rgb(16, 205, 192));
+    color: gold;
+}
+.left>div{
+    background-color: #e1e3e5;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    border-bottom: 8px double blue;
+    color: black;
+}
+#flag,#coat{
+height: 40x;
+width: 70px;
+}
+select{ 
+    background-color: antiquewhite;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    color: darkgreen;
+}
+tr:nth-child(even){
+    background-color: rgb(156, 169, 165);
+}
+td{
+    padding: 3px;
+    border: 1px solid white;
+}
+tr>th{
+    background-color: black;
+    color: #d5d7d8;
+}
+tr:hover{ 
+    font-size: 18px;
+}
+body {
+    color: black;
+    background-color: rgb(241, 241, 241);
+    
+ }
+ .dark-theme {
+    color: white;
+    background-color: rgb(26, 20, 20);
+ }
+  button {    
+    font-size:13px;
+    background-color: rgb(236, 195, 71);
+    border: none;
+    border-radius: 12px;
+ }
+ label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+ }
