@@ -1,5 +1,6 @@
 body{
     margin: 20px 30px;
+    background-image: url(image/pic2.jpg);
 }
 .footer{
     position: fixed;
@@ -11,7 +12,7 @@ body{
 }
 .head{
     padding-top: 20px;
-    background-image: url(./images/map.png);
+    background-image: url(image/pic.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 95%;
